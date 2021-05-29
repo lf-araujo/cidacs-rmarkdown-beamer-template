@@ -52,9 +52,6 @@ setwd(here::here())
 :::
 ::: {.column width="50%"}
 
-```{r out.width='80%'}
-knitr::include_graphics(".png")
-```
 \tiny
 
 Dataset coverage from 2001 to 2017
@@ -100,6 +97,4 @@ gantt
 DiagrammeR::mermaid(a)
 ```
 
-```{r out.width='100%'}
-knitr::include_graphics("../graphs/schedule.png")
-```
+
