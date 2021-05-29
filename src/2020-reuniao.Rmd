@@ -2,7 +2,7 @@
 title: Work Schedule 
 subtitle: Project subtitle
 author:
-- Me^[Post Doc | Center of Data and Knowledge Integration for Health (CIDACS) | Salvador | Brasil] ^[The University of Melbourne| Dept of Psychiatry| Austin Health | email:ldearaujo@unimelb.edu.au]
+- Me^[Post Doc | Center of Data and Knowledge Integration for Health (CIDACS) | Salvador | Brasil] 
 date: \today
 mainfont: Trebuchet MS
 titlefont: Trebuchet MS
