@@ -102,7 +102,7 @@ $if(verbatim-in-note)$
 $endif$
 $if(tables)$
 \usepackage{longtable,booktabs}
-\usepackage{caption}
+\usepackage[font={footnotesize}]{caption}
 % These lines are needed to make table captions work with longtable:
 \makeatletter
 \def\fnum@table{\tablename~\thetable}
@@ -192,7 +192,7 @@ $endfor$
 \usepackage{graphicx}
 \usepackage{rotating}
 \usepackage{hyperref}
-\usepackage[font={footnotesize}]{caption}
+% \usepackage[font={footnotesize}]{caption}
 \usepackage[normalem]{ulem}
 \usepackage{etoolbox}
 \usepackage{wasysym}
@@ -232,7 +232,7 @@ $if(titlegraphic)$\titlegraphic{\includegraphics[width=0.3\paperwidth]{\string~$
 \setbeamerfont{subtitle}{size=\small}
 \setbeamerfont{footnote}{size=\tiny}
 \setbeamerfont*{title}{size=\huge}
-\setbeamercovered{transparent}
+% \setbeamercovered{transparent}
 
 \setbeamercolor{itemize item}{fg=orange}
 \setbeamercolor{itemize subitem}{fg=orange}
@@ -245,9 +245,11 @@ $if(titlegraphic)$\titlegraphic{\includegraphics[width=0.3\paperwidth]{\string~$
 \definecolor{cidacsred}{HTML}{761514}
 \setbeamercolor{frametitle}{fg=cidacsred}
 \setbeamercolor{local structure}{fg=cidacsred}
-\setbeamercolor{footline}{fg=orange!50, bg=white}
+% \setbeamercolor{footline}{fg=orange!50, bg=white}
 \setbeamercolor{titlelike}{fg=cidacsred}
 \setbeamercolor{footnote}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{block title}{fg=orange!70!black, bg=white}
 
 \let\Tiny=\tiny
 
@@ -281,14 +283,14 @@ $if(titlegraphic)$\titlegraphic{\includegraphics[width=0.3\paperwidth]{\string~$
 }
 
 
-\AtBeginDocument{%
-  \letcs\oig{@orig\string\includegraphics}%
-  \renewcommand<>\includegraphics[2][]{%
-    \only#3{%
-      {\centering\oig[{#1}]{#2}\par}%
-    }%
-  }%
-}
+% \AtBeginDocument{%
+%   \letcs\oig{@orig\string\includegraphics}%
+%   \renewcommand<>\includegraphics[2][]{%
+%     \only#3{%
+%       {\centering\oig[{#1}]{#2}\par}%
+%     }%
+%   }%
+% }
 
 % I think I've moved to xelatex now. Here's some stuff for that.
 % --------------------------------------------------------------
@@ -297,11 +299,9 @@ $if(titlegraphic)$\titlegraphic{\includegraphics[width=0.3\paperwidth]{\string~$
 \ifxetex
 \setbeamerfont{title}{family=\fontspec{$if(titlefont)$$titlefont$$else$serif$endif$}}
 \setbeamerfont{frametitle}{family=\fontspec{$if(titlefont)$$titlefont$$else$serif$endif$}}
-\usepackage[font=small,skip=0pt]{caption}
+% \usepackage[font=small,skip=0pt]{caption}
  \else
  \fi
-
-
 
 
 % Okay, and begin the actual document...

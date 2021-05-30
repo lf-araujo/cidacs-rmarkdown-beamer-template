@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.29)  29 MAY 2021 11:46
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.29)  30 MAY 2021 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -867,39 +867,17 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPbot=\skip65
 \rot@float@box=\box74
 \rot@mess@toks=\toks47
-) (/home/luis/.TinyTeX/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/10/26 v3.5g Customizing captions (AR)
-(/home/luis/.TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen288
-\captionmargin@=\dimen289
-\captionwidth=\dimen290
-\caption@tempdima=\dimen291
-\caption@indent=\dimen292
-\caption@parindent=\dimen293
-\caption@hangindent=\dimen294
-Package caption Info: beamer document class detected.
-(/home/luis/.TinyTeX/texmf-dist/tex/latex/caption/caption-beamer.sto
-File: caption-beamer.sto 2020/08/22 v2.0 Adaption of the caption package to the
- beamer document classes (AR)
-))
-\c@caption@flags=\count349
-\c@continuedfloat=\count350
-Package caption Info: hyperref package is loaded.
-Package caption Info: Hyperref support is turned off
-(caption)             because hyperref has stopped early.
-Package caption Info: rotating package is loaded.
 ) (/home/luis/.TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box75
 \UL@hyphenbox=\box76
 \UL@skip=\skip66
 \UL@hook=\toks48
-\UL@height=\dimen295
-\UL@pe=\count351
-\UL@pixel=\dimen296
+\UL@height=\dimen288
+\UL@pe=\count349
+\UL@pixel=\dimen289
 \ULC@box=\box77
 Package: ulem 2019/11/18
-\ULdepth=\dimen297
+\ULdepth=\dimen290
 ) (/home/luis/.TinyTeX/texmf-dist/tex/latex/wasysym/wasysym.sty
 Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
 \symwasy=\mathgroup6
@@ -975,7 +953,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/home/luis/.TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count352
+\c@section@level=\count350
 )
 LaTeX Info: Redefining \ref on input line 185.
 LaTeX Info: Redefining \pageref on input line 185.
@@ -1019,8 +997,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `TrebuchetMS' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
 (./2020-reuniao.nav)
 LaTeX Font Info:    Font shape `TU/TrebuchetMS(0)/m/n' will be
 (Font)              scaled to size 4.94504pt on input line 185.
@@ -1151,6 +1127,8 @@ File: style/body_page.png Graphic file (type bmp)
 [2
 
 ]
+LaTeX Font Info:    Font shape `TU/TrebuchetMS(0)/m/n' will be
+(Font)              scaled to size 9.89008pt on input line 236.
 
 Package fontspec Info: Trebuchet MS scale = 0.8241705469709312.
 
@@ -1221,12 +1199,12 @@ Package rerunfilecheck Info: File `2020-reuniao.out' has not changed.
 (rerunfilecheck)             Checksum: D406772527ED07B205ADA58029150E79;121.
  ) 
 Here is how much of TeX's memory you used:
- 26926 strings out of 478666
- 545570 string characters out of 5862263
- 906755 words of memory out of 5000000
- 46423 multiletter control sequences out of 15000+600000
- 421291 words of font info for 87 fonts, out of 8000000 for 9000
+ 25613 strings out of 478666
+ 518582 string characters out of 5862263
+ 884902 words of memory out of 5000000
+ 45119 multiletter control sequences out of 15000+600000
+ 421299 words of font info for 88 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 101i,12n,122p,496b,616s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,12n,122p,496b,843s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on 2020-reuniao.pdf (4 pages).

@@ -39,14 +39,14 @@ setwd(here::here())
 - Example of citation [@machadoEffectsCOVID19Anxiety2020].
 
 
-# Section example
+# Sections are not supported
 
 ## Data set - CIDACS
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 
-
+### A block
 + Column example
 
 :::
